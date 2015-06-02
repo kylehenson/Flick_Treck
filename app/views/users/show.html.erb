@@ -1,15 +1,14 @@
 <div class="container">
-  <h1>Kyle's Dashboard</h1>
   <div class="row">
-  <%= link_to "My Flicks", user_path(1), class: "normal_btn"%>
-  <%= link_to "My Groups", user_path(1), class: "normal_btn"%>
-  <%= link_to "View All Flicks", user_path(1), class: "normal_btn"%>
-  <%= link_to "View All Groups", user_path(1), class: "normal_btn"%>
-  <%= link_to "Pick For Me", user_path(1), class: "normal_btn"%>
-  <%= link_to "Rate More Flicks", user_path(1), class: "normal_btn"%>
+  <div class="col s8 offset-s2">
+  <h1>Kyle's Dashboard</h1>
+  <%= link_to "My Groups", user_path(1), class: "waves-effect waves-light btn"%>
+  <%= link_to "View All Groups", user_path(1), class: "waves-effect waves-light btn"%>
+  <%= link_to "Pick Randomly", user_path(1), class: "waves-effect waves-light btn"%>
+  </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
+    <div class="col s6 offset-s3">
       <h2>Top Recommendation in Sci-Fi</h2>
   </div>
   </div>
